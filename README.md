@@ -1,3 +1,16 @@
+# Stylegan3-modified
+
+This is a version of stylegan3 specifically modified for my project [stylegan3-anime](https://github.com/Expl0dingCat/stylegan3-anime), though it should work for all models trained with [Vision-aided GAN](https://github.com/nupurkmr9/vision-aided-gan)
+
+## Modifications made
+
+- `legacy.py`, class `_LegacyUnpickler` added: `if module == “vision_transformer”: return _TFNetworkStub`
+
+
+
+## Original readme
+
+
 ## Alias-Free Generative Adversarial Networks (StyleGAN3)<br><sub>Official PyTorch implementation of the NeurIPS 2021 paper</sub>
 
 ![Teaser image](./docs/stylegan3-teaser-1920x1006.png)
